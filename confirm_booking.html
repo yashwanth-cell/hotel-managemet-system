@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Confirmation</title>
+</head>
+<body>
+    <header>
+        <h1>Booking Confirmation</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/rooms">View Rooms</a>
+        </nav>
+    </header>
+    <div class="confirmation">
+        <h2>Thank you for booking with us, {{ name }}!</h2>
+        <p>Room Type: {{ room_type }}</p>
+        <p>Number of Nights: {{ nights }}</p>
+        <p>Total Price: ${{ total_price }}</p>
+    </div>
+</body>
+</html>
